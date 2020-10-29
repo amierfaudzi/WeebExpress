@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weebs On the Go</title>
+    <link rel="stylesheet" href="./styles/css/main.min.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <main class="main">
+            <div class="main-right">
+                <div class="introduction">
+                    <h1 class="introduction__title">WeebExpress</h1>
+                    <p class="introduction__content">Don't waste time hunting for a <span class="highlight">good anime</span>. Let us help you.</p>
+                </div>
+        
+                <form action="" class="anime-search-form">
+                    <!--Category selector-->
+                    <select class="dropdown" name="category" id="category" required>
+                        <option value="">-Select a Catergory-</option>
+                        <option value="magic">Magic</option>
+                        <option value="mecha">Mecha</option>
+                        <option value="demon">Demon</option>
+                        <option value="horror">Horror</option>
+                        <option value="fantasy">Fantasy</option>
+                    </select>
+                    <button class="button" type="submit" >Search!</button>
+                </form>
+            </div>
+
+        <div class="selectedAnime">
+        </div>
+    </main>
+    <script src="./javascript/script.js"></script>
+</body>
+</html>
