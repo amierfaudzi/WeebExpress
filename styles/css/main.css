@@ -135,9 +135,6 @@ h1 {
     background-repeat: no-repeat;
   }
 }
-.selectedAnime::-webkit-scrollbar {
-  display: none;
-}
 .selectedAnime .anime-card {
   width: 284px;
   height: 500px;
