@@ -6,4 +6,5 @@ Do you want to watch Anime but don't know where to start?
 
 Afraid not, we're here to save you!
 
-## https://weebexpress.netlify.app/
+<a href='https://weebexpress.netlify.app/'>![Screenshot](assets/website-screenshot.PNG)</a>
+
